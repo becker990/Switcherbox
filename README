@@ -1,0 +1,31 @@
+Switcherbox project
+
+-whatis:
+    
+    Switcherbox is an interpreter to make possible
+    an easy way to write scripts to control switches with the 
+    parallel port. It´s goal is to be a cheaper and easier Arduino. 
+
+
+Language:
+    -syntax:(this sintax may change, for Turing complete language)
+        will have a single form sintax: "C N"
+        where C is command and N switch number
+        making default 0 for all switches
+
+    -commands(switcherbox features):
+
+        -"l" or "L" is for on
+        -"d" or "D" is for off
+        -"i" or "I" is for inverting current state
+        -"e" or "E" is for rotating left
+        -"r" or "R" is for rotating right
+        -"w" or "W" is for wait a given N time 
+        
+-todo:
+
+    -DOCUMENTATION ON HOW TO DO THE CIRCUITRY!!!11!!
+    -further dev on a Turing-complete language
+    -low current box
+    -high current box
+    -interface making high current box an expansion
